@@ -1,0 +1,247 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 1vw;
+    font-family: "HankenGrotesk";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container {
+    width: 80%;
+    border: 2px solid black;
+    
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4em;
+    background: linear-gradient( hsla(252,100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(0, 0%, 100%);
+    border-radius: 0 0 10em 10em;
+}
+
+.first-section-heading {
+    font-size: 3.8em;
+    margin-top: 2em;
+    color: hsla(0, 0%, 100%, 0.8);
+    letter-spacing: .05em
+}
+
+.readings {
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7em 9em;
+    margin-top: 2em;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+#result {
+    font-family: "HankenGrotesk";
+    font-size: 10em;
+    font-weight: 800;
+}
+
+#overall {
+    font-size: 3em;
+    color: hsla(0, 0%, 100%, 0.5);
+}
+
+.complement {
+    font-size: 4em;
+    font-weight: 500;
+    margin-top: 1.5em;
+    color: hsl(221, 100%, 96%);
+}
+
+.attribute {
+    font-size: 3.2em;
+    width: 70%;
+    margin-top: .3em;
+    line-height: 1.5em;
+    color: hsla(0, 0%, 100%, 0.8);
+    text-align: center;
+}
+
+.second-section-heading {
+    font-size: 4em;
+    font-weight: 700;
+    margin-top: 1.5em;
+    margin-bottom: 1.2em;
+    margin-left: 2em;
+    color: hsla(224, 30%, 27%, 0.9);
+}
+
+.second-section img {
+    width: 7%;
+}
+
+.cognitive-results p {
+
+    width: 75%;
+    padding: .5em;
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 2.2em;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 1em
+    
+}
+
+.reaction {
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 67%, 0.05);
+
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.05);
+}
+
+.verbal {
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, 0.05);
+    text-align: center;
+    
+}
+
+.visual {
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%, 0.05);
+}
+
+#score {
+    margin-left: 7em;
+    margin-right: 1em;
+}
+
+#score-value {
+    color: hsla(224, 30%, 27%, 1);
+    font-weight: 700;
+}
+
+#rated-value {
+    color: hsla(224, 30%, 27%, 0.4);
+}
+
+footer .container-footer {
+    width: 75%;
+    font-size: 3.5em;
+    font-weight: 500;
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 2.5em;
+    border-radius: 45px;
+    color: hsla(0, 0%, 100%, 0.8);
+    background-color: hsl(224, 30%, 27%);
+}
+
+.attribution { 
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: .8em;
+    
+}
+        
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    
+}
+
+/* for desktop */
+
+@media (min-width: 375px) {
+    .container {
+        display: flex;
+        width: 50%;
+        border: 0;
+        
+    }
+    
+    .first-section {
+        padding: 0;
+        border-radius: 15px;
+        width: 50%;
+    }
+    
+    .first-section-heading {
+        font-size: 1.5em;
+        margin-top: 0em;
+    }
+    
+    .readings {
+        padding: 2em 3em;
+        
+    }
+    
+    #result {
+        font-size: 4em;
+    }
+    
+    #overall {
+        font-size: 1em;
+    }
+    
+    .complement {
+        font-size: 2em;
+        margin-top: .8em;
+    }
+    
+    .attribute {
+        font-size: 1.2em;
+        width: 68%;
+        margin-top: -1em;
+    }
+    
+    
+    
+    .second-section {
+        width: 50%;
+        margin-left: em;
+        border-radius: 0 10px 10px 0;
+        box-shadow: 5px 5px 20px hsl(241, 100%, 89%);
+        
+    }
+    
+    .second-section-heading {
+        font-size: 1.5em;
+    }
+    
+    .cognitive-results p {
+        width: 75%;
+        padding: 1em;
+        font-size: .8em;
+    }
+    
+    .second-section img {
+        width: 5%;
+    }
+    
+    footer .container-footer {
+        font-size: 2em;
+        padding: .5em;
+        margin-top: 1em;
+        margin-bottom: 1.8em;
+    }
+    
+    footer .container-footer:hover {
+        background: linear-gradient( hsla(252,100%, 67%), hsl(241, 81%, 54%));
+    }
+}
