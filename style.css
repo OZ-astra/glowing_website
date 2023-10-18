@@ -154,7 +154,7 @@ footer .container-footer {
 }
 
 .attribution { 
-    font-size: 2.5em;
+    font-size: 11px;
     text-align: center;
     margin-top: .8em;
     
@@ -243,5 +243,9 @@ footer .container-footer {
     
     footer .container-footer:hover {
         background: linear-gradient( hsla(252,100%, 67%), hsl(241, 81%, 54%));
+    }
+
+    .attribution {
+        font-size: 15px;
     }
 }
