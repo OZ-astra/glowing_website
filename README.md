@@ -6,3 +6,8 @@ This is a solution to result-summary-card-component challenge from [frontend men
 ## Tools
 -HTML
 -CSS
+
+##Built With
+- semantic html
+- css flexbox property
+- mobile-forst workflow
