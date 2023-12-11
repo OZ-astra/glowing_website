@@ -7,7 +7,7 @@ This is a solution to result-summary-card-component challenge from [frontend men
 -HTML
 -CSS
 
-##Built With
+## Built With
 - semantic html
 - css flexbox property
 - mobile-forst workflow
